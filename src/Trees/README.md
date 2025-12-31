@@ -1,0 +1,11 @@
+# Trees Problems
+
+This folder contains LeetCode problems related to **Trees**.
+
+Each problem includes:
+- Problem Link
+- Approach
+- Time Complexity
+- Space Complexity
+- Java Solution
+
