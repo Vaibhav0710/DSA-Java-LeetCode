@@ -125,3 +125,42 @@ Move Zeroes | O(n) | O(1) |
 
 ### 🔁 To Revise Again
 - Product of Array Except Self
+
+---
+
+## 🗓 Day 03 — Index-as-Hash Technique
+
+### ✅ Problems Solved
+- Find All Duplicates in an Array
+
+---
+
+### 🧠 Patterns Learned
+
+#### 1️⃣ Index as Hash (Sign Marking)
+- Used in: Find All Duplicates
+- Key Idea:
+  - Values are in range 1..n
+  - Use value as index → `abs(nums[i]) - 1`
+  - Mark visited index as negative
+- When to use:
+  - “Find duplicates / missing numbers”
+  - “O(1) extra space required”
+
+---
+
+### ⏱ Complexity Summary
+| Problem | Time | Space |
+|------|------|------|
+Find All Duplicates | O(n) | O(1) |
+
+---
+
+### ❌ Mistakes / Learnings
+- Always use `abs()` before indexing
+- Clarify if modifying array is allowed
+
+---
+
+### 🔁 To Revise Again
+- Index marking logic
